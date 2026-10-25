@@ -1,27 +1,27 @@
-// Each animal has an image and a list of facts
+// each animal has a picture and a few facts to pick from
 export const animals = {
   dolphin: {
-    image: 'images/dolphin.jpg',
+    image: "images/dolphin.jpg",
     facts: [
-      'Dolphins have been shown to give distinct names to each other!',
-      'Dolphins are known to display their own culture!',
-      'Dolphins have two stomachs!',
+      "Dolphins have been shown to give distinct names to each other!",
+      "Dolphins are known to display their own culture!",
+      "Dolphins have two stomachs!",
     ],
   },
   lobster: {
-    image: 'images/lobster.jpg',
+    image: "images/lobster.jpg",
     facts: [
-      'Lobsters taste with their legs!',
-      'Lobsters chew with their stomachs!',
-      'Lobsters can live as long as 100 years.',
+      "Lobsters taste with their legs!",
+      "Lobsters chew with their stomachs!",
+      "Lobsters can live as long as 100 years.",
     ],
   },
   starfish: {
-    image: 'images/starfish.jpg',
+    image: "images/starfish.jpg",
     facts: [
-      'Starfish can have up to 40 arms!',
-      'Starfish have no brain and no blood!',
-      'Starfish can regenerate their own arms!',
+      "Starfish can have up to 40 arms!",
+      "Starfish have no brain and no blood!",
+      "Starfish can regenerate their own arms!",
     ],
   },
 };

@@ -1,10 +1,15 @@
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
   background: #0b3d4a;
 }
 
-/* Main page: everything scrolls together, nothing is pinned */
+/* page wrapper: everything scrolls together so nothing slides under anything else */
 #app > div {
   position: relative;
   display: flex;
@@ -16,7 +21,7 @@ body {
   overflow: hidden;
 }
 
-/* Ocean fills the whole page behind everything */
+/* ocean stretches to fill the page behind the content */
 .background {
   position: absolute;
   inset: 0;
@@ -26,7 +31,7 @@ body {
   z-index: 0;
 }
 
-/* Title, fact, and animals sit on top of the ocean */
+/* keeps the title, fact, and animals on top of the ocean */
 h1,
 #fact,
 .animals {
@@ -42,7 +47,7 @@ h1 {
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
-/* Fact gets its own space above the animals so it never hides behind them */
+/* fact has its own space so long facts don't run into the pictures */
 #fact {
   max-width: 900px;
   min-height: 3em;
@@ -76,7 +81,7 @@ h1 {
   transform: translateY(-4px);
 }
 
-/* Phones: stack the animals */
+/* on phones the animals stack instead of sitting in a row */
 @media (max-width: 600px) {
   .animals {
     flex-direction: column;

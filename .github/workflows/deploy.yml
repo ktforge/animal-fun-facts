@@ -1,4 +1,4 @@
-# Builds the site and publishes it to GitHub Pages on every push to main
+# builds the site and publishes it to github pages whenever main gets a push
 name: Deploy to GitHub Pages
 
 on:
